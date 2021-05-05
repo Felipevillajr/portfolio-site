@@ -1,0 +1,82 @@
+@import "../../Partials/Partials.scss";
+
+.aboutme {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.navigation {
+  height: 100vh;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  @include mobile {
+    flex-direction: row;
+  }
+}
+
+.aboutme__card {
+  background-color: #d0f4ba;
+  height: 100vh;
+  width: 75%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+#navigation__background__video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+}
+
+#navigation__name {
+  margin: 2rem;
+  color: #a1ef7a;
+  line-height: 1.5;
+  text-align: center;
+  border: none;
+  border-bottom: 4px solid #a1ef7a;
+}
+
+#navigation__about {
+  padding: 0.5rem;
+  border: 3px solid #a1ef7a;
+  border-radius: 4px;
+  margin: 2rem;
+  color: #a1ef7a;
+}
+
+#navigation__portfolio {
+  padding: 0.5rem;
+  border: 3px solid #a1ef7a;
+  border-radius: 4px;
+  margin: 2rem;
+  color: #a1ef7a;
+}
+
+#navigation__contact__me {
+  padding: 0.5rem;
+  border: 3px solid #a1ef7a;
+  border-radius: 4px;
+  margin: 2rem;
+  color: #a1ef7a;
+}
+
+#navigation__services {
+  padding: 0.5rem;
+  border: 3px solid #a1ef7a;
+  border-radius: 4px;
+  margin: 2rem;
+  color: #a1ef7a;
+}

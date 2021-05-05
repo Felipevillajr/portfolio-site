@@ -37,7 +37,7 @@ h2 {
 
 .fade__in__text {
   display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   animation: fadeIn linear 5s;
   -webkit-animation: fadeIn linear 5s;
   -moz-animation: fadeIn linear 5s;
@@ -94,7 +94,13 @@ h2 {
   bottom: 10rem;
   height: auto;
   width: 25%;
+  border-radius: 5px;
   border-bottom: 5px solid white;
+}
+
+#about:hover {
+  color: #a1ef7a;
+  border-bottom: 5px solid #a1ef7a;
 }
 
 #portfolio {
@@ -103,7 +109,14 @@ h2 {
   bottom: 20rem;
   height: auto;
   width: 25%;
+  border-radius: 5px;
   border-bottom: 5px solid white;
+}
+
+#portfolio:hover {
+  color: #a1ef7a;
+
+  border-bottom: 5px solid #a1ef7a;
 }
 
 #contact__me {
@@ -112,7 +125,13 @@ h2 {
   bottom: 30rem;
   height: auto;
   width: 25%;
+  border-radius: 5px;
   border-bottom: 5px solid white;
+}
+
+#contact__me:hover {
+  color: #a1ef7a;
+  border-bottom: 5px solid #a1ef7a;
 }
 
 #services {
@@ -121,7 +140,13 @@ h2 {
   bottom: 40rem;
   height: auto;
   width: 25%;
+  border-radius: 5px;
   border-bottom: 5px solid white;
+}
+
+#services:hover {
+  color: #a1ef7a;
+  border-bottom: 5px solid #a1ef7a;
 }
 
 .logoImg {
@@ -129,6 +154,7 @@ h2 {
   left: 0;
   bottom: 0;
   height: auto;
-  width: 25%;
+  width: 544px;
+  z-index: -3;
   filter: grayscale(1);
 }

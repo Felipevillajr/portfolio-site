@@ -2,6 +2,10 @@ import "./App.scss";
 import Home from "./Pages/Home/Home.jsx";
 import React from "react";
 import Header from "./Components/Header/Header";
+import AboutMe from "./Pages/AboutMe/AboutMe";
+import Portfolio from "./Pages/Portfolio/Portfolio";
+import ContactMe from "./Pages/ContactMe/ContactMe";
+import Services from "./Pages/Services/Services";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -11,7 +15,11 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact match="/" component={Home} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/aboutme" component={AboutMe} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contactme" component={ContactMe} />
+          <Route exact path="/services" component={Services} />
         </Switch>
       </Router>
     </div>
