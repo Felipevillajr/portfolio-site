@@ -43,21 +43,24 @@ export default function ContactMe() {
           </div>
         </Link>
       </section>
-      <section className="aboutme__card">
-        <a className="aboutme__link" href="https://github.com/Felipevillajr">
+      <section className="contactme__card">
+        <a className="contactme__link" href="https://github.com/Felipevillajr">
           {/* <p>GitHub</p> */}
           <img src={Github} alt="github logo" />
         </a>
 
         <a
-          className="aboutme__link"
+          className="contactme__link"
           href="https://www.linkedin.com/in/felipe-villa-jr/"
         >
           {/* <p>linkedIn </p> */}
           <img src={LinkedIn} alt="linkedin logo" />
         </a>
-        <a href="mailto: felipevilla.webdev@gmail.com<">
-          <img className="aboutme__email" src={Email} alt="email logo" />
+        <a
+          href="mailto: felipevilla.webdev@gmail.com<"
+          className="contactme__link"
+        >
+          <img className="contactme__email" src={Email} alt="email logo" />
         </a>
       </section>
     </div>
