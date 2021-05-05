@@ -1,0 +1,11 @@
+@import "../../Partials/Partials.scss";
+
+.contactme {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  @include mobile {
+    flex-direction: column;
+  }
+}
