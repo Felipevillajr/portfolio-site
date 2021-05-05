@@ -1,0 +1,134 @@
+@import "./Partials/Partials.scss";
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#background__video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+  @include tablet {
+    filter: grayscale(1);
+  }
+}
+
+.home__links {
+  @include mobile {
+    display: none;
+  }
+}
+
+.home__img {
+  @include mobile {
+    display: none;
+  }
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+.fade__in__text {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: fadeIn linear 5s;
+  -webkit-animation: fadeIn linear 5s;
+  -moz-animation: fadeIn linear 5s;
+  -o-animation: fadeIn linear 5s;
+  -ms-animation: fadeIn linear 5s;
+  @include mobile {
+    padding: 0.5rem;
+    border: 3px solid #a1ef7a;
+    border-radius: 4px;
+  }
+}
+
+.fade__in__text:hover {
+  @include mobile {
+    color: #eaf8da !important;
+    border: 3px solid #eaf8da;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#name {
+  position: absolute;
+  left: 2rem;
+  top: 5rem;
+  height: auto;
+  width: 60%;
+  font-size: 4rem;
+  //   border-bottom: 5px solid white;
+  @include mobile {
+    display: none;
+  }
+}
+
+#title {
+  position: absolute;
+  left: 2rem;
+  top: 12rem;
+  @include mobile {
+    display: none;
+  }
+}
+
+#about {
+  position: absolute;
+  right: 100px;
+  bottom: 10rem;
+  height: auto;
+  width: 25%;
+  border-bottom: 5px solid white;
+}
+
+#portfolio {
+  position: absolute;
+  right: 100px;
+  bottom: 20rem;
+  height: auto;
+  width: 25%;
+  border-bottom: 5px solid white;
+}
+
+#contact__me {
+  position: absolute;
+  right: 100px;
+  bottom: 30rem;
+  height: auto;
+  width: 25%;
+  border-bottom: 5px solid white;
+}
+
+#services {
+  position: absolute;
+  right: 100px;
+  bottom: 40rem;
+  height: auto;
+  width: 25%;
+  border-bottom: 5px solid white;
+}
+
+.logoImg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 25%;
+  filter: grayscale(1);
+}

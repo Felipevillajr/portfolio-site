@@ -1,0 +1,29 @@
+// viewscreen breakpoints live here
+$mobile-breakpoint: 648px;
+$tablet-breakpoint: 720px;
+$desktop-breakpoint: 1400px;
+$XXL: 1600px;
+
+@mixin mobile {
+  @media (max-width: $mobile-breakpoint) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop-breakpoint) {
+    @content;
+  }
+}
+
+@mixin XL {
+  @media (min-width: $XXL) {
+    @content;
+  }
+}

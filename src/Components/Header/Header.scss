@@ -1,0 +1,49 @@
+@import "../../Partials/Partials.scss";
+
+.header {
+  display: none;
+  z-index: -1;
+  @include mobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+#name__header {
+  margin: 2rem;
+  color: #a1ef7a;
+  line-height: 1.5;
+  text-align: center;
+  border: none;
+  border-bottom: 4px solid #a1ef7a;
+}
+
+#about__header {
+  margin: 2rem;
+  color: #a1ef7a;
+}
+
+#portfolio__header {
+  margin: 2rem;
+  color: #a1ef7a;
+}
+
+#contact__me__header {
+  margin: 2rem;
+  color: #a1ef7a;
+}
+
+#services__header {
+  margin: 2rem;
+  color: #a1ef7a;
+}
+
+.logoImg__header {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  height: auto;
+}
