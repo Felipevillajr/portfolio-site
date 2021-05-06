@@ -35,11 +35,11 @@ export default function Home() {
         </Link>
       </section>
       <section className="header">
-        <img
+        {/* <img
           src={logo}
           alt="felipe_villa_img"
           className="logoImg__header"
-        ></img>
+        ></img> */}
         <div id="name__header" className="fade__in__text">
           Felipe Villa <br /> Web Developer
         </div>
