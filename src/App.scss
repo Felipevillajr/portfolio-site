@@ -38,11 +38,11 @@ h2 {
 .fade__in__text {
   display: inline-block;
   font-family: "M PLUS Rounded 1c", sans-serif;
-  animation: fadeIn linear 5s;
-  -webkit-animation: fadeIn linear 5s;
-  -moz-animation: fadeIn linear 5s;
-  -o-animation: fadeIn linear 5s;
-  -ms-animation: fadeIn linear 5s;
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
   @include mobile {
     padding: 0.5rem;
     border: 3px solid #a1ef7a;

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Services.scss";
-import underLogo from "../../Assets/LOGO/underconstruction_logo.png";
 
 export default function Services() {
   return (
