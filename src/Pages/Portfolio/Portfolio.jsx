@@ -50,6 +50,8 @@ export default function Portfolio() {
         <a
           className="portfolio__card1"
           href="https://pacific-retreat-51764.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {/* <div> */}
           {/* <p className="portfolio__title">LFG Forum</p>
@@ -68,6 +70,8 @@ export default function Portfolio() {
         <a
           className="portfolio__card2"
           href="https://github.com/Felipevillajr/felipe-villa-bandsite"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {/* <img id="homepage" src={bandsite} alt="bandsite homepage img" /> */}
         </a>
@@ -82,6 +86,8 @@ export default function Portfolio() {
         <a
           className="portfolio__card3"
           href="https://github.com/Felipevillajr/nbc_hackathon"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {/* <img id="homepage" src={nbchack} alt="bandsite homepage img" /> */}
         </a>
@@ -108,6 +114,8 @@ export default function Portfolio() {
         <a
           className="portfolio__card4"
           href="https://github.com/Felipevillajr/felipe-villa-brainflix"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {/* <img id="homepage" src={brainflix} alt="bandsite homepage img" /> */}
         </a>

@@ -42,21 +42,29 @@ export default function NewHome() {
         <a
           className="portfolio__card1"
           href="https://pacific-retreat-51764.herokuapp.com/"
-        ></a>
+        >
+          <p style={{ display: "none" }}>Link here </p>
+        </a>
         <a
           className="portfolio__card2"
           href="https://github.com/Felipevillajr/felipe-villa-bandsite"
-        ></a>
+        >
+          <p style={{ display: "none" }}>Link here </p>
+        </a>
 
         <a
           className="portfolio__card3"
           href="https://github.com/Felipevillajr/nbc_hackathon"
-        ></a>
+        >
+          <p style={{ display: "none" }}>Link here </p>
+        </a>
 
         <a
           className="portfolio__card4"
           href="https://github.com/Felipevillajr/felipe-villa-brainflix"
-        ></a>
+        >
+          <p style={{ display: "none" }}>Link here </p>
+        </a>
       </section>
       <section>
         <div className="contactme__contactlinks">
